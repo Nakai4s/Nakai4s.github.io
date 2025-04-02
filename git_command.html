@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitコマンド手順書</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .command-section {
+            margin-bottom: 20px;
+        }
+        .command-name {
+            font-weight: bold;
+        }
+        .role, .example {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gitコマンド手順書</h1>
+
+    <div class="command-section">
+        <div class="command-name">git init</div>
+        <div class="role">役割：リポジトリを初期化する</div>
+        <div class="example">使用例：<code>git init</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git clone</div>
+        <div class="role">役割：リモートリポジトリをローカルにコピーする</div>
+        <div class="example">使用例：<code>git clone https://github.com/username/repository.git</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git add</div>
+        <div class="role">役割：変更をステージに追加する</div>
+        <div class="example">使用例：<code>git add .</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git commit</div>
+        <div class="role">役割：ステージに追加された変更をコミットする</div>
+        <div class="example">使用例：<code>git commit -m "コミットメッセージ"</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git push</div>
+        <div class="role">役割：ローカルリポジトリの変更をリモートリポジトリに反映させる</div>
+        <div class="example">使用例：<code>git push origin master</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git pull</div>
+        <div class="role">役割：リモートリポジトリから最新の変更をローカルに反映する</div>
+        <div class="example">使用例：<code>git pull origin master</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git status</div>
+        <div class="role">役割：リポジトリの状態を確認する</div>
+        <div class="example">使用例：<code>git status</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git branch</div>
+        <div class="role">役割：現在のブランチを確認、またはブランチを作成する</div>
+        <div class="example">使用例：<code>git branch</code><br>ブランチ作成: <code>git branch 新しいブランチ名</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git checkout</div>
+        <div class="role">役割：ブランチを切り替える</div>
+        <div class="example">使用例：<code>git checkout 新しいブランチ名</code></div>
+    </div>
+
+    <div class="command-section">
+        <div class="command-name">git merge</div>
+        <div class="role">役割：他のブランチの変更を現在のブランチに統合する</div>
+        <div class="example">使用例：<code>git merge 他のブランチ名</code></div>
+    </div>
+</body>
+</html>
